@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>音樂網站示範</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #ffa500;
+      padding: 20px;
+      text-align: center;
+      font-size: 25px;
+      color: #000000;
+    }
+
+    nav {
+      background-color: #666;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav li {
+      display: inline-block;
+      margin-right: 10px;
+    }
+
+    nav a {
+      display: block;
+      padding: 10px;
+      text-decoration: none;
+      color: #fff;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    .introduction {
+      text-align: center;
+      margin-top: 10px;
+    }
+
+    .introduction h2 {
+      color: #111;
+    }
+
+    .introduction p {
+      color: #222;
+      font-style: italic;
+    }
+
+    .introduction img {
+      width: 200px; 
+      height: auto;
+      font-style: italic;
+    }
+
+
+    .english_songs {
+      text-align: center;
+      margin-top: 10px;
+    }
+
+    .english_songs h2 {
+      color: #111;
+    }
+    
+    .english_songs h3 {
+      color: #111;
+    }
+
+    .english_songs p {
+      color: #222;
+      font-style: italic;
+    }
+
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1 style="display: inline-block; vertical-align: middle;">Welcome to</h1>
+    <img src="music_hub.png" style="max-width: 100%; max-height: 100px; vertical-align: middle;" alt="MusicHub">
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#introduction">Introduction</a></li>
+      <li><a href="#english_songs">English Songs</a></li>
+      <li><a href="#chinese_songs">Chinese Songs</a></li>
+      <li><a href="#web_developers">Web Developers</a></li>
+      <li><a href="#sponsors">Sponsors</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section class="introduction">
+      <h2>Introduction</h2>
+      <p>This is a website that collects songs or sounds effects in the internet</p>
+      <p>The copyright belongs to the creator</p>
+      <p>For optimal user experience, it is recommended that you use a computer for browsing</p>
+    </section>
+  </main>
+
+  <main>
+    <section class="english_songs">
+      <h2>English Songs</h2>
+      <h3>Alone</h3>
+      <audio id="myAudio" src="Alone.mp3" controls></audio>
+    </section>
+  </main>
+
+</body>
+
+</html>
